@@ -12,6 +12,7 @@
     float: left;
     position: relative;
     padding-top: 120px;
+    overflow-x: hidden;
 }
 
 section{
@@ -675,6 +676,32 @@ section.thankyou{
 
     .stick-ads{
         width: 600px;
+    }
+    .master{
+        padding-top: 80px;
+    }
+    .hero-slider .item{
+        height: calc(100vh - 120px);
+    }
+
+    .hero-slider .item .text h2{
+        font-size: 36px;
+    }
+    .hero-slider .item .text p{
+        font-size: 16px;
+    }
+
+    .my-card h3{
+        font-size: 24px;
+    }
+    .my-card .price{
+        font-size: 36px;
+    }
+    .my-card ul li{
+        font-size: 14px;
+    }
+    .my-card{
+        padding: 100px 30px 30px 30px;
     }
 }
 
