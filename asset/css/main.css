@@ -366,6 +366,7 @@ p{
     display: inline-block;
     min-width: 160px;
     height: 52px;
+    text-align: center;
     padding: 14px 30px;
     border-radius: 30px;
     -moz-border-radius: 30px;
