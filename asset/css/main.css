@@ -724,6 +724,9 @@ section.thankyou{
     .section-title h3{
         font-size: 28px;
     }
+    #produk-1 .text{
+        padding-right: 30px;
+    }
 }
 
 @media only screen and (max-width: 1024px){
