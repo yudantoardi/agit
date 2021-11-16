@@ -329,15 +329,21 @@ p{
     line-height: 120%;
 }
 .my-card .price{
-    font-size: 56px;
+    font-size: 18px;
     margin-bottom: 10px;
     color: #333;
+    font-weight: 700;
 }
-.my-card .price span{
+.my-card .price p{
     font-size: 16px;
     font-weight: 700;
     display: block;
     margin-bottom: -10px;
+}
+.my-card .price span{
+    font-size: 56px;
+    font-weight: 400;
+    color: var(--purple);
 }
 .my-card h5{
     font-size: 18px;
@@ -702,6 +708,9 @@ section.thankyou{
         font-size: 24px;
     }
     .my-card .price{
+        font-size: 16px;
+    }
+    .my-card .price span{
         font-size: 36px;
     }
     .my-card ul li{
