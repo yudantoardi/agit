@@ -211,13 +211,13 @@ section#home{
 .section-title{
     width: 100%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .section-title h4{
     font-size: 21px;
     color: var(--orange);
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .section-title h3{
     font-size: 36px;
@@ -226,9 +226,11 @@ section#home{
     line-height: 120%;
 }
 p{
-    font-size: 16px;
+    font-size: 15px;
     color: #333;
     line-height: 180%;
+    width: 100%;
+    float: left;
 }
 
 .colg-1{
@@ -267,6 +269,10 @@ p{
 }
 #produk-1 .text{
     padding-right: 50px;
+}
+#produk-1 .text p,
+#produk-2 .text p{
+    margin-bottom: 10px;
 }
 
 #produk-2{
@@ -429,6 +435,7 @@ p{
 }
 .about-card{
     width: 80%;
+    float: left;
     margin-left: 10%;
     padding: 80px 100px;
     background: #fff;
@@ -681,7 +688,7 @@ section.thankyou{
         padding-top: 80px;
     }
     .hero-slider .item{
-        height: calc(100vh - 120px);
+        height: calc(100vh - 140px);
     }
 
     .hero-slider .item .text h2{
@@ -702,6 +709,20 @@ section.thankyou{
     }
     .my-card{
         padding: 100px 30px 30px 30px;
+    }
+
+    .hero-slider .owl-prev{
+        left: 10px;
+    }
+    .hero-slider .owl-next{
+        right: 10px;
+    }
+
+    .section-title h4{
+        font-size: 18px;
+    }
+    .section-title h3{
+        font-size: 28px;
     }
 }
 
